@@ -1,0 +1,28 @@
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 50px;
+  width: 150px;
+  height: 50px;
+  transition: 0.2s ease-in-out 0s;
+  background-color: white;
+  color: red;
+  border: 1px solid blue;
+  font-size: large;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.buttonContainer {
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
