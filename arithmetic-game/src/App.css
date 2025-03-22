@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
